@@ -1,0 +1,39 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+a {
+	text-decoration: none;
+}
+.container {
+	min-width: 320px;
+	font-family: 'Titillium Web', sans-serif;
+}
+.flex {
+	display: flex;
+	align-items: center;
+}
+.flex-bottom {
+	display: flex;
+	align-items: flex-end;
+}
+.flex-column {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+.background-box {
+	background-image: url(../img/Background.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+@media (min-width:468px) {
+	.background-box {
+		background-image: url(../img/Background2.png);
+	}
+}
+@media (min-width:1024px) {
+	.background-box {
+		background-image: url(../img/Background3.png);
+	}
+}

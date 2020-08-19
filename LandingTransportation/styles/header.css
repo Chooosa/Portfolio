@@ -1,0 +1,53 @@
+.head_foot {
+	max-width: 1180px;
+	margin: 0 auto;
+	width: 100%;
+	display: flex;
+	height: 70px;
+}
+.head_logo {
+	margin: 5px;
+}
+.head_foot__logo {
+	max-width: 100%;
+}
+nav {
+	margin: auto 10px;
+}
+.menu__link {
+	text-decoration: none;
+	color: #000;
+	margin:0 15px;
+	font-weight: 600;
+}
+.menu__link:hover {
+	color: #009C17;
+	text-decoration: underline;
+}
+.phone {
+	width: 200px;
+	margin-left: 80px
+}
+.phone__call {
+	background-color: #009C17;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 900;
+	height: 60%;
+	display: flex;
+   align-items: center;
+   justify-content: flex-start;
+}
+.call {
+	background-color: #E9C518;
+	height: 40%;
+	justify-content: center;
+}
+.phone__ico {
+	margin:10px;
+}
+.green {
+	margin-right: -100%;
+	background-color: #009C17;
+	width: 15%;
+}

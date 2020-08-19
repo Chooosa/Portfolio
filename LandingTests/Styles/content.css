@@ -1,0 +1,152 @@
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
+.flex-space-between {
+	justify-content: space-between;
+}
+.text-transparent {
+	font-weight: bold;
+	font-size: 14px;
+	color: rgba(74, 74, 74, 0.5);
+}
+.content {
+	flex-shrink: 1;
+	flex-grow: 1;
+
+	padding: 15px 30px 115px 30px;
+	background: #F2F2F2;
+}
+.content__heading {
+	font-size: 16px;
+}
+.content-head {
+	margin-bottom: 20px;
+}
+.content-head__content {
+	max-width: 550px;
+	min-height:180px;
+
+	margin-right: 30px;
+	padding: 12px 14px;
+	box-sizing: border-box;
+
+	background: #fff;
+}
+.content-head__content:last-child {
+	margin-right: 0;
+}
+.content-body__container {
+	background: #fff;
+	padding: 20px;
+
+	justify-content: flex-start;
+}
+.content-body-right {
+	width: 195px;
+	height: 440px;
+
+	padding: 8px;
+	margin-left: 16px;
+
+	line-height: 1.5;
+}
+.content-body-left__teams {
+	max-width: 195px;
+	height: 240px;
+
+	padding: 10px;
+}
+.content-body-left__blocks {
+	margin-top: 16px;
+}
+.content-body-left__block {
+	width: 90px;
+	height: 165px;
+
+	margin-right: 10px;
+	padding: 0 10px;
+
+	align-self: stretch;
+
+	display: flex;
+	align-items: center;
+
+	box-sizing: border-box;
+}
+.content-body-left__block:last-child {
+	margin-right: 0;
+}
+.content-body-left__procedure {
+	padding: 14px 10px 7px;
+	margin-left: 16px;
+}
+.line__img {
+	max-width: 590px;
+
+	margin-top: 10px;
+}
+.content-body-left__bottom {
+	min-width: 100%;
+
+	margin-top: 16px;
+	padding: 10px;
+
+	box-sizing: border-box;
+}
+.content-body-left__review {
+	margin-top: 20px;
+}
+.content-body-left__reviewBox {
+	max-width: 200px;
+}
+.reviewBox__par {
+	font-size: 12px;
+	margin-bottom: 3px;
+}
+.text-bold {
+	font-weight: bold;
+	font-size: 12px;
+}
+.reviewBox__text {
+	margin-left: 30px;
+}
+.margin-top {
+	margin-top: 0;
+}
+.align-center {
+	align-items: center;
+}
+.align-top {
+	align-items: flex-start;
+}
+.check {
+	display: none;
+	margin-left: 0;
+}
+.lbl-check::before {
+	content: "";
+
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+
+
+	border: 1px solid #4A4A4A;
+	border-radius: 2px;
+
+	vertical-align: middle;
+	margin-right: 6px;
+}
+.check:checked + .lbl-check::before {
+	content: "";
+	background-image: url(../img/check-blue.png);
+	background-size: 100%;
+}
+.check-reminder {
+	line-height: 1.5;
+}

@@ -1,0 +1,55 @@
+.us {
+	background-image: url(../img/us.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 1000px;
+	display: flex;
+	flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.heading_us {
+	align-items: flex-start;
+	margin-top: 60px;
+}
+.lines_us {
+	width: 250px;
+	height: 20px;
+	margin-top: 10px;
+}
+.heading_us__span {
+	margin: 0 5px;
+	font-size: 25px;
+}
+.list_us {
+	position: relative;
+	right: 80px;
+}
+.list_us__img {
+	opacity: 0.6;
+	height: 152px;
+	width: 152px;
+}
+.us_img_three {
+	position: relative;
+	right: 5px;
+}
+.list_us__par {
+	color: #fff;
+	height: 65px;
+	font-size: 18px;
+	font-weight: bold;
+	margin-left: 40px;
+	padding-left: 40px;
+	border-left: 1px solid #EDECEB;
+	display: flex;
+	align-items: center;
+}
+.points_us {
+	display: flex;
+	flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   width: 650px;
+   margin: 30px 0;
+}

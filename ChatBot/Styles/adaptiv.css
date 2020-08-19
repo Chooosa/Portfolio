@@ -1,0 +1,80 @@
+@media (max-width:768px) {
+	.content {
+		max-width: 500px;
+	}
+	.header {
+		font-size: 48px;
+		margin: 40px 0 30px 0;
+	}
+	.window-chat {
+		margin-bottom: 50px;
+		padding: 40px;
+	}
+	.send-message__input {
+		padding: 10px;
+		font-size: 18px;
+	}
+	.send-message__text {
+		padding-left: 20px;
+	}
+	.send-message__button {
+		width: 12%;
+		background-size: 70%;
+	}
+	.message {
+		margin-bottom: 25px;
+	}
+	.text-message {
+		padding: 10px;
+		padding-left: 20px;
+		margin-left: 15px;
+
+		font-size: 14px;
+	}
+	.message > img {
+		width: 60px;
+		height: 60px;
+	}
+}
+
+@media (max-width:568px) {
+	.content {
+		max-width: 300px;
+	}
+	.header {
+		font-size: 28px;
+		margin: 30px 0 20px 0;
+	}
+	.window-chat {
+		margin-bottom: 30px;
+		padding: 30px;
+	}
+	.send-message__input {
+		padding: 8px;
+		font-size: 14px;
+	}
+	.send-message__text {
+		padding-left: 16px;
+	}
+	.send-message__button {
+		width: 14%;
+	}
+	.message {
+		margin-bottom: 20px;
+	}
+	.text-message {
+		padding: 5px;
+		padding-left: 15px;
+		margin-left: 10px;
+
+		font-size: 12px;
+	}
+	.message > img {
+		width: 50px;
+		height: 50px;
+	}
+	.weather-box {
+		max-width: 140px;
+		margin: 5px;
+	}
+}

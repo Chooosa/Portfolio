@@ -1,0 +1,21 @@
+.sidebar {
+	flex-basis: 260px;
+	flex-grow: 0;
+	justify-content: space-between;
+	align-items: stretch;
+
+	padding: 20px 40px 20px 20px;
+	box-sizing: border-box;
+}
+.sidebar__heading {
+	font-weight: bold;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.sidebar-box__par {
+	font-weight: normal;
+}
+.sidebar-box__container {
+	height: 165px;
+	width: 195px;
+}

@@ -1,0 +1,287 @@
+/*-----------------headphones----------------*/
+.headphones {
+	background-color: #2B2835;
+}
+.wrapper {
+	position: relative;
+
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+
+	max-width: 1240px;
+	margin: 0 auto;
+}
+.headphones-img {
+	position: absolute;
+	top: 0;
+	left: -110px;
+}
+.info {
+	margin: 210px 0 180px;
+	width: 100%;
+	max-width: 510px;
+}
+.sub-title, .title, .price {
+	color: #fff;
+	font-size: 40px;
+	font-weight: 600;
+}
+.sub-title {
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+.title {
+	font-weight: bold;
+}
+.by-button {
+	padding: 12px 58px;
+
+	border-radius: 20px;
+	border: none;
+	outline: none;
+	cursor: pointer;
+
+	font-size: 14px;
+	font-weight: 600;
+	color: #000;
+	text-transform: uppercase;
+
+	background-color: #FFC700;
+}
+.by-button:hover {
+	border: 1px solid #FFC700;
+}
+.price-box {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+
+	margin: 40px 0 10px;
+}
+.extra-text {
+	font-weight: 600;
+	font-size: 14px;
+	color: #FFC700;
+}
+
+
+/*-----------------speakers----------------*/
+.speakers {
+	padding: 200px 0;
+}
+.wrapper-speaker {
+	justify-content: space-between;
+}
+.sub-title-speaker, .title-speaker, .price-speaker {
+	color: #000;
+}
+.name {
+	font-size: 50px;
+	font-weight: bold;
+
+	margin-bottom: 20px;
+}
+.extra-text-speaker {
+	color: rgba(0, 0, 0, 0.52);
+}
+.title-speaker {
+	font-weight: normal;
+}
+.plus {
+	position: relative;
+	top:-40px;
+}
+.sub-title-color {
+	margin-top: 15px;
+}
+.colors {
+	min-height: 52px;
+}
+.color-button {
+	border-radius: 50%;
+	width: 46px;
+	height: 46px;
+
+	border: 1px solid transparent;
+	transition: 0.2s all linear;
+	outline: none;
+	margin: 0 15px 0 0;
+
+	cursor: pointer;
+}
+.color-button:focus {
+ 	border: 1px solid #000;
+ 	width: 50px;
+	height: 50px;
+}
+.white-button {
+	background-color: #fff;
+	border: 1px solid #000;
+}
+.red-button {
+	background-color: #DD5656;
+}
+.black-button {
+	background-color: #000;
+}
+.by-button-speaker {
+	background-color: #000;
+	color: #fff;
+}
+.by-button:hover {
+	border: 1px solid #000;
+}
+.pages-button {
+	border-radius: 50%;
+	width: 10px;
+	height: 10px;
+	border: 2px solid #000;
+
+	transition: 0.2s all linear;
+	outline: none;
+	margin: 0 15px 0 0;
+	padding: 0;
+
+	cursor: pointer;
+	background: #fff;
+}
+.pages-button:focus, .page-one {
+	background: #000;
+}
+.speakers-img {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
+/*-----------------earphones----------------*/
+.wrapper-earphones {
+	justify-content: space-between;
+	margin-bottom: 70px;
+}
+.earphones-box {
+	width: 390px;
+	height: 560px;
+	box-sizing: border-box;
+
+	display: inline-flex;
+	flex-direction: column;
+	align-items: flex-start;
+
+	background: #F8F8F9;
+}
+.earphones-img {
+	background-repeat: no-repeat;
+	background-position: 80%;
+	/*background-size: contain;*/
+
+	align-self: stretch;
+	flex-grow: 1;
+}
+.earphones-img__one {
+	background-image: url(../img/earphones1.png);
+}
+.earphones-img__two {
+	background-image: url(../img/earphones2.png);
+	background-position: 60% 0%;
+}
+.earphones-img__three {
+	background-image: url(../img/earphones3.png);
+}
+.earphones-name__x {
+	font-size: 30px;
+
+	position: relative;
+	top: -20px;
+}
+.title-earphones {
+	font-size: 14px;
+	color: #000;
+
+	margin-right: 100px;
+}
+.info-earphones {
+	position: relative;
+	top: 330px;
+	left: 22px;
+	/*margin: 330px 80px 45px 22px;*/
+}
+.price-earphones {
+	color: #9D8220;
+	font-size: 25px;
+
+	min-width: 90px;
+}
+.by-button-earphones {
+	background-color: #000;
+	color: #fff;
+	border: 2px solid transparent;
+
+	padding: 11px 30px 13px 36px;
+	margin-left: 50px;
+	/*position: relative;
+	right: 150px;*/
+}
+.by-button-earphones:hover {
+	border: 2px solid #FFC700;
+}
+.price-box-earphones{
+	justify-content: flex-start;
+}
+
+
+/*-----------------footer----------------*/
+.footer {
+	background: #2B2835;
+	padding:55px 190px 20px 135px;
+}
+.footer-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.footer-copyright {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	font-size: 12px;
+	font-weight: 500;
+	color: rgba(255, 255, 255, 0.31);
+
+	margin-top: 60px;
+}
+.footer-links {
+	display: flex;
+	flex-direction: column;
+}
+.footer-links__link {
+	margin: 5px 0;
+}
+.footer-links__link:hover {
+	color: #fff;
+}
+.footer-links__par {
+	font-size: 28px;
+	font-weight: bold;
+	color: #fff;
+
+	margin: 0 0 20px 0;
+}
+.footer-links__link {
+	font-size: 14px;
+	font-weight: bold;
+	color: rgba(255, 255, 255, 0.7);
+
+	text-decoration: none;
+}
+.community {
+	margin-right: 5px;
+}
+.footer-community {
+	margin-top: 25px;
+}

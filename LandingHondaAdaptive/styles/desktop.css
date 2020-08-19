@@ -1,0 +1,87 @@
+/*---------------Header---------------*/
+@media (min-width:1280px) {
+	.header {
+		max-height: 80px;
+	}
+	.burger-menu__img {
+		width: 65px;
+		height: 80px;
+	}
+	.menu {
+		padding-right: 0;
+		padding-left: 40px;
+	}
+	.nav__link {
+		display: flex;
+
+		margin-right: 70px;
+		padding-bottom: 25px;
+	}
+	.nav__link:focus {
+		border-color: #fff;
+	}
+	.nav__models {
+		margin-left: 75px;
+	}
+
+	.form-search::before {
+		height: 80px;
+
+		top: -28px;
+	}
+}
+
+/*--------------bike-info--------------*/
+@media (min-width:1280px) {
+	.bike-info-box {
+		max-width: 860px;
+
+		padding: 80px 0 120px 215px;
+	}
+	.bike-info__model {
+		margin-bottom: 45px;
+	}
+	.bike-info-style {
+		margin-right: 55px;
+	}
+	.bike-info-style:last-child {
+		margin-left: 30px;
+	}
+}
+
+/*---------------newsletter--------------*/
+@media (min-width:1280px) {
+	.newsletter-form__content {
+		min-width: 980px;
+	}
+	.form-text {
+		max-width: 780px;
+
+		margin: 0 auto;
+	}
+	.name-before, .email-before {
+		flex-grow: 1;
+	}
+	.submit-box {
+		margin-top: 0;
+	}
+	.email-before {
+		margin: 0 40px;
+	}
+}
+
+/*---------------footer------------------*/
+@media (min-width:1280px) {
+	.footer {
+		display: flex;
+
+		padding: 20px;
+	}
+	.footer-copyright {
+		flex-grow: 1;
+		display: flex;
+		justify-content: flex-end;
+
+		margin-top: 0;
+	}
+}

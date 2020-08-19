@@ -1,0 +1,78 @@
+.bike-info-box {
+	max-width: 175px;
+	padding: 20px;
+}
+.bike-info__model {
+	color: #fff;
+	font-size: 25px;
+	font-weight: bold;
+
+	line-height: 30px;
+}
+.model-span {
+	display: block;
+}
+.bike-info-style {
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 23px;
+
+	color: #F6F6F6;
+	margin: 8px 0;
+}
+.bike-info-style2 {
+	font-size: 17px;
+	line-height: 26px;
+}
+.bike-info__par {
+	margin: 0;
+}
+.bike-info__film, .bike-info__book {
+	position: relative;
+	margin-left: 25px;
+}
+.bike-info__film {
+	margin-right: 50px;
+	line-height: 30px;
+
+	color: #fff;
+}
+.bike-info__film::before, .bike-info__book::before {
+	display: inline-block;
+
+	text-align: center;
+   vertical-align: middle;
+   line-height: 14px;
+
+   border-radius: 50%;
+   width: 16px;
+	height: 16px;
+
+   position: absolute;
+	left: -25px;
+	top: 1px;
+
+	border: 2px solid #F92251;
+}
+.bike-info__film::before {
+	content: url(../img/Icon-Shape.svg);
+
+	background: #F92251;
+}
+.bike-info__book::before {
+	content: url(../img/bookmark.svg);
+
+	background: none;
+}
+.book-check {
+	display: none;
+}
+.book-check:checked + .bike-info__book::before {
+	background: #F92251;
+}
+.rating__star {
+	margin-right: 9px;
+}
+.rating__assessment {
+	color: #F6F6F6;
+}

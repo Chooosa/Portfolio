@@ -1,0 +1,63 @@
+.newsletter-form {
+	padding: 35px 20px;
+
+	background: #1F1F2F;
+}
+.form-text {
+	margin: 0;
+
+	font-size: 17px;
+	line-height: 26px;
+
+	color: #fff;
+}
+.form-text__span {
+	display: block;
+}
+.newsletter-form__input {
+	margin-top: 20px;
+	padding: 5px 40px;
+
+	border-radius: 10px;
+	outline: none;
+
+	font-size: 17px;
+	color: #82868E;
+	font-family: 'Titillium Web', sans-serif;
+
+	flex-grow: 1;
+}
+.newsletter-form__input::-webkit-input-placeholder {
+	font-size: 17px;
+	color: #82868E;
+}
+.name-before, .email-before, .submit-box {
+	position: relative;
+	max-height: 70px;
+}
+.name-before::before {
+	content: url(../img/name.svg);
+
+	position: absolute;
+	left: 15px;
+	top: 30px;
+	z-index: 1;
+}
+.email-before::before {
+	content: url(../img/email.svg);
+
+	position: absolute;
+	left: 15px;
+	top: 28px;
+	z-index: 1;
+}
+.newsletter-form__submit {
+	background: #F92251;
+	border-color: #F92251;
+
+	color: #fff;
+
+	flex-grow: 1;
+
+	cursor: pointer;
+}

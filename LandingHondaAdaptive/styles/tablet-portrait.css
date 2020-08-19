@@ -1,0 +1,160 @@
+/*---------------Header---------------*/
+@media (min-width:768px) {
+	.burger-menu__img {
+		width: 40px;
+		height: 40px;
+	}
+	.burger-menu {
+		margin-top: auto;
+		margin-bottom: auto;
+		margin: auto 40px auto 0;
+	}
+	.menu {
+		padding-right: 45px;
+	}
+	.nav__link {
+		font-size: 18px;
+	}
+
+	.search-before::before {
+		width: 20px;
+		height: 20px;
+
+		left: 35px;
+		bottom: 3px;
+	}
+	.input-search {
+		font-size: 14px;
+
+		margin-left: 75px;
+	}
+}
+
+/*--------------bike-info--------------*/
+@media (min-width:768px) {
+	.bike-info-box {
+		max-width: 500px;
+
+		padding: 55px 0 55px 95px;
+	}
+	.bike-info__model {
+		font-size: 90px;
+		line-height: 100px;
+
+		margin-bottom: 30px;
+	}
+	.bike-info__links {
+		display: flex;
+		justify-content: flex-start;
+
+		margin-bottom: 80px;
+	}
+	.bike-info-style {
+		font-size: 18px;
+		line-height: 27px;
+
+		margin-right: 75px;
+	}
+	.bike-info-style2 {
+		font-size: 24px;
+		line-height: 37px;
+
+		margin-top: 8px;
+	}
+	.bike-info__film, .bike-info__book {
+		margin-left: 70px;
+	}
+	.bike-info__film::before, .bike-info__book::before {
+		width: 42px;
+		height: 42px;
+
+		left: -70px;
+		top: -10px;
+
+		line-height: 44px;
+
+		border-width: 4px;
+	}
+	.bike-info__film::before {
+		content: url(../img/Icon-Shape2.svg);
+	}
+	.bike-info__book::before {
+		content: url(../img/bookmark2.svg);
+	}
+	.bike-info {
+		display: flex;
+		justify-content: flex-start;
+		flex-wrap: wrap;
+	}
+	.rating__star {
+		width: 24px;
+		height: 24px;
+
+		margin-right: 15px;
+	}
+	.rating {
+		margin-top: 4px;
+	}
+	.rating__assessment {
+		margin-top: 0;
+
+		margin-left: 25px;
+	}
+}
+
+/*---------------newsletter--------------*/
+@media (min-width:768px) {
+	.newsletter-form {
+		justify-content: center;
+
+		padding-bottom: 70px;
+	}
+	.newsletter-form__content {
+		max-width: 550px;
+
+		margin: 0 auto;
+	}
+	.form-text {
+		text-align: center;
+
+		font-size: 25px;
+		line-height: 38px;
+	}
+	.newsletter-form__box {
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-between;
+
+		margin-top: 50px;
+	}
+	.submit-box {
+		flex-grow: 1;
+
+		margin-top: 50px;
+	}
+	.newsletter-form__input {
+		padding: 10px 40px;
+	}
+	.name-before::before {
+		top: 34px;
+	}
+	.email-before::before {
+		top: 32px;
+	}
+}
+
+/*---------------footer------------------*/
+@media (min-width:768px) {
+	.footer {
+		font-size: 20px;
+		line-height: 30px;
+
+		padding: 30px;
+	}
+	.footer-links {
+		flex-direction: row;
+	}
+	.footer-links__link {
+		margin-right: 30px;
+	}
+}

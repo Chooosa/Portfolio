@@ -1,0 +1,140 @@
+.why {
+	background-image: url(../img/why.jpg);
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 1000px;
+	display: flex;
+	flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.heading {
+	display: flex;
+   align-items: center;
+   width: 950px;
+   margin-bottom: 40px;
+   /*padding: 70px;*/
+}
+.heading_div {
+	display: flex;
+	flex-direction: column;
+	margin:0 auto;
+	max-width: 500px;
+	position: relative;
+}
+.heading_why {
+	position: relative;
+	margin:0 auto;
+	display: flex;
+	flex-direction: column;
+
+	margin-bottom: 40px;
+}
+.lines::before {
+	content: url(../img/line-left.png);
+	position: absolute;
+	left: -330px;
+	top: 20px;
+}
+.lines::after {
+	content: url(../img/line-right.png);
+	position: absolute;
+	right: -330px;
+	top: 20px;
+}
+.lines_why::before {
+	left: -30px;
+	top: 10px;
+}
+.lines_why::after {
+	right: -30px;
+	top: 10px;
+}
+.heading__span {
+	color: #fff;
+	font-size: 38px;
+	font-weight: bold;
+	margin: 0 40px;
+}
+.list_why{
+	width: 950px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.points_why {
+	width: 950px;
+	height: 150px;
+	background-repeat: no-repeat;
+	margin: 20px auto;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+.transport {
+	background-image: url(../img/why-1.png);
+}
+.experience {
+	background-image: url(../img/why-2.png);
+}
+.responsibility {
+	background-image: url(../img/why-3.png);
+}
+.efficiency {
+	background-image: url(../img/why-4.png);
+}
+.points_why__left {
+	color: #fff;
+	position: relative;
+	font-weight: bold;
+	font-size: 22px;
+}
+.points_why__right {
+	color: #009C17;
+	position: relative;
+	font-weight: bold;
+	font-size: 18px;
+	max-width: 300px;
+	text-transform: uppercase;
+}
+.points_why__number {
+	font-size: 50px;
+}
+.points_why__text {
+	text-transform: uppercase;
+	font-size: 20px;
+}
+.left_one {
+	right: 80px;
+	bottom: 15px;
+}
+.left_two {
+	right: 95px;
+	bottom: 15px;
+}
+.left_three {
+	right: 80px;
+	bottom: 15px;
+}
+.left_four {
+	right: 100px;
+	bottom: 15px;
+}
+.right_one {
+	left: 115px;
+	top: 10px;
+}
+.right_two {
+	left: 125px;
+	top: 10px;
+}
+.right_three {
+	left: 100px;
+	top: 10px;
+}
+.right_four {
+	left: 90px;
+	top: 10px;
+}

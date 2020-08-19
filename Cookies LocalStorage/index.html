@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework29</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="content">
+        <form action="#" class="form">
+            <fieldset class="fieldset">
+                <legend class="fieldset__legend text">Форма Cookie</legend>
+
+                <div class="form__box">
+                    <label class="form__lbl text">Имя:</label>
+                    <input type="text" class="form__txt text" id="formCookie__name">
+                </div>
+
+                <div class="form__box">
+                    <label class="form__lbl text">Фамилия:</label>
+                    <input type="text" class="form__txt text" id="formCookie__surname">
+                </div>
+
+                <div class="form__box">
+                    <label class="form__lbl text">Отчество:</label>
+                    <input type="text" class="form__txt text" id="formCookie__lastName">
+                </div>
+
+                <div class="form__box">
+                    <label class="form__lbl text">Пол:</label>
+
+                    <div class="form__gender">
+                        <div class="form__male">
+                            <label for="formCookie__male" class="form__lbl">Мужской</label>
+                            <input type="radio" class="form__radio" name="formCookie__gender" id="formCookie__male"
+                            value="male">
+                        </div>
+
+                        <div class="formCookie__female">
+                            <label for="formCookie__female" class="form__lbl">Женский</label>
+                            <input type="radio" class="form__radio" name="formCookie__gender" id="formCookie__female"
+                            value="female">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form__box">
+                    <div class="form__infoBox">
+                        <div class="form__info">
+                            <input type="checkbox" class="form__check" id="formCookie__age">
+                            <label for="formCookie__age" class="form__lbl form__checkLbl">Я совершеннолетний</label>
+                        </div>
+
+                        <div class="form__info">
+                            <input type="checkbox" class="form__check" id="formCookie__education">
+                            <label for="formCookie__education" class="form__lbl form__checkLbl">У меня высшее образование</label>
+                        </div>
+
+                        <div class="form__info">
+                            <input type="checkbox" class="form__check" id="formCookie__country">
+                            <label for="formCookie__country" class="form__lbl form__checkLbl">Я иностранный гражданин</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form__box button__box">
+                    <button class="form__Btn" onclick="saveC()">Сохранить</button>
+                    <buuton class="form__Btn" onclick="resetC()" >Сброс</buuton>
+                </div>
+            </fieldset>
+        </form>
+
+        <form action="#" class="form">
+            <fieldset class="fieldset">
+                <legend class="fieldset__legend text">Форма LocalStorage</legend>
+
+                <div class="form__box">
+                    <label class="form__lbl text">Имя</label>
+                    <input type="text" class="form__txt text" id="formLocalStorage__name">
+                </div>
+
+                <div class="form__box">
+                    <label class="form__lbl text">Фамилия</label>
+                    <input type="text" class="form__txt text" id="formLocalStorage__surname">
+                </div>
+
+                <div class="form__box">
+                    <label class="form__lbl text">Отчество</label>
+                    <input type="text" class="form__txt text" id="formLocalStorage__lastName">
+                </div>
+
+                <div class="form__box">
+                    <label class="form__lbl text">Пол:</label>
+
+                    <div class="form__gender" id="genderLS">
+                        <div class="form__male">
+                            <label for="formLocalStorage__male" class="form__lbl">Мужской</label>
+                            <input type="radio" class="form__radio" name="formLocalStorage__gender"
+                                   id="formLocalStorage__male" value="male">
+                        </div>
+
+                        <div class="form__female">
+                            <label for="formLocalStorage__female" class="form__lbl">Женский</label>
+                            <input type="radio" class="form__radio" name="formLocalStorage__gender"
+                                   id="formLocalStorage__female" value="female">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form__box">
+                    <div class="form__infoBox">
+                        <div class="form__info">
+                            <input type="checkbox" class="form__check" id="formLocalStorage__age">
+                            <label for="formLocalStorage__age" class="form__checkLbl">
+                                Я совершеннолетний
+                            </label>
+                        </div>
+
+                        <div class="form__info">
+                            <input type="checkbox" class="form__check" id="formLocalStorage__education">
+                            <label for="formLocalStorage__education" class="form__checkLbl">
+                                У меня высшее образование
+                            </label>
+                        </div>
+
+                        <div class="form__info">
+                            <input type="checkbox" class="form__check" id="formLocalStorage__country">
+                            <label for="formLocalStorage__country" class="form__checkLbl">
+                                Я иностранный гражданин
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form__box button__box">
+                    <button class="form__Btn" onclick="saveLS()">Сохранить</button>
+                    <buuton class="form__Btn" onclick="resetLS()">Сброс</buuton>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+
+    <script src="localStorage.js"></script>
+    <script src="cookies.js"></script>
+</body>
+</html>

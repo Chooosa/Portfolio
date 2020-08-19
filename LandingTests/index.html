@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Homework13</title>
+	<link rel="stylesheet" href="Styles/main.css">
+	<link rel="stylesheet" href="Styles/sidebar.css">
+	<link rel="stylesheet" href="Styles/content.css">
+	<link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<div class="sidebar">
+			<div class="text sidebar__heading">
+				Usability test plan Dashboard
+			</div>
+
+			<div class="sidebar-box">
+				<p class="text sidebar-box__par">
+					The sercive/product that is going to be tested
+				</p>
+				<div class="sidebar-box__container background-transparent"></div>
+			</div>
+
+			<div class="sidebar-box">
+				<p class="text sidebar-box__par">
+					Business requirements
+				</p>
+				<div class="sidebar-box__container background-transparent"></div>
+			</div>
+
+			<div class="sidebar-box">
+				<p class="text sidebar-box__par">
+					User requirements
+				</p>
+				<div class="sidebar-box__container background-transparent"></div>
+			</div>
+
+			<div class="sidebar-box">
+				<p class="text sidebar-box__par">
+					Location & dates of the tests
+				</p>
+				<div class="sidebar-box__container background-transparent"></div>
+			</div>
+		</div>
+
+		<div class="content flex-column">
+			<div class="content-head flex-column">
+				<p class="text content__heading">Test Objectives</p>
+				<div class="content-head__container flex-row">
+					<div class="text-transparent content-head__content">
+						Why are you doing this user testing? What are the benefits Any risks of not achieving this test?
+					</div>
+					<div class="text-transparent content-head__content">
+						What are the goals of the usabilty test? What are the specific questions that will be answered? What hypothesis that will be tested?
+					</div>
+				</div>
+			</div>
+
+			<div class="content-body flex-column">
+				<p class="text content__heading">Test Preparation</p>
+				<div class="content-body__container flex-row">
+					<div class="content-body-left flex-column">
+						<div class="content-body-left__top flex-row">
+							<div class="content-body-left__teams text background-transparent">
+								Teams who are involved and what are their responsibilities?
+							</div>
+
+							<div class="content-body-left__procedure background-transparent">
+								<div class="content-body-left__headText text flex-column">
+									Test plan / procedure
+									<span class="content-body-left__span  text-transparent ">
+										List the main steps of the test procedure
+									</span>
+								</div>
+								<div class="content-body-left__blocks flex-row ">
+									<div class="content-body-left__block text-transparent background-transparent">1</div>
+									<div class="content-body-left__block text-transparent background-transparent">2</div>
+									<div class="content-body-left__block text-transparent background-transparent">3</div>
+									<div class="content-body-left__block text-transparent background-transparent">4</div>
+									<div class="content-body-left__block text-transparent background-transparent">5</div>
+									<div class="content-body-left__block text-transparent background-transparent">6</div>
+								</div>
+								<div class="line">
+									<img src="img/Line 3.png" alt="Line" class="line__img">
+								</div>
+							</div>
+						</div>
+						<div class="content-body-left__bottom flex-column background-transparent">
+							<div class="content-body-left__heading text">
+								Review before the test (check if done)
+							</div>
+
+							<div class="content-body-left__review flex-space-between flex-row">
+								<div class="content-body-left__reviewBox flex-column">
+									<div class="check-email flex-row align-center">
+									  <input type="checkbox" id="email" class="check">
+									  <label for="email" class="text lbl-check">Email Participants</label>
+									</div>
+									<div class="reviewBox__text">
+										<p class="reviewBox__par text">
+											If checked, write the date that was sent
+										</p>
+										<span class="reviewBox__span text-bold text">
+											Date:
+										</span>
+									</div>
+								</div>
+
+								<div class="content-body-left__reviewBox flex-column">
+									<p class="reviewBox__heading margin-top text">
+										Reminder participants about the tests
+									</p>
+									<p class="reviewBox__par margin-top text">
+										Write the number and dates of the reminders
+									</p>
+									<p class="reviewBox__par margin-top text">
+										If  reminder was done, please check the box
+									</p>
+									<div class="check-reminder flex-row align-center">
+									  <input type="checkbox" id="reminder__one" class="check">
+									  <label for="reminder__one" class="text text-bold lbl-check">
+									  	Reminder #1  -  Date:
+									  </label>
+									</div>
+									<div class="check-reminder flex-row align-center">
+									  <input type="checkbox" id="reminder__two" class="check">
+									  <label for="reminder__two" class="text text-bold lbl-check">
+									  	Reminder #2  -  Date:
+									  </label>
+									</div>
+								</div>
+
+								<div class="content-body-left__reviewBox flex-column flex-space-between">
+									<div class="check-approval flex-row align-top">
+									  <input type="checkbox" id="approval" class="check">
+									  <label for="approval" class="text lbl-check">
+									  	Ethical Approval prepared and sent
+									  </label>
+									</div>
+									<div class="check-recording flex-row align-top">
+									  <input type="checkbox" id="recording" class="check">
+									  <label for="recording" class="text lbl-check">
+									  	Recording consent form prepared for the test session
+									  </label>
+									</div>
+									<div class="check-usability flex-row align-top">
+									  <input type="checkbox" id="usability" class="check">
+									  <label for="usability" class="text lbl-check">
+									  	Usability testing checklist prepared for the test session
+									  </label>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="content-body-right flex-column background-transparent text">
+						Test Tasks
+						<span class="text-transparent">
+							List the test tasks
+						</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
